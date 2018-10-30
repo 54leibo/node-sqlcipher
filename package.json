@@ -7,13 +7,7 @@
     "name": "JourneyApps",
     "url": "https://journeyapps.com/"
   },
-  "binary": {
-    "module_name": "node_sqlite3",
-    "module_path": "./lib/binding/{node_abi}-{platform}-{arch}",
-    "host": "https://journeyapps-node-binary.s3.amazonaws.com",
-    "remote_path": "./{name}/v{version}/{toolset}/",
-    "package_name": "{node_abi}-{platform}-{arch}.tar.gz"
-  },
+
   "contributors": [
     "Konstantin Käfer <mail@kkaefer.com>",
     "Dane Springmeyer <dane@mapbox.com>",
